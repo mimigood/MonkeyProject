@@ -1,17 +1,48 @@
 * {
-  margin:  0;
-  padding: 0;
+  margin:  10;
+  padding: 10;
   box-sizing: border-box;
 }
 
 .picture {
   display:flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
 
 }
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
+
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+h1 { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 27.5px;
+    text-align: center;
+    color: #7D8570;
+}
+
+p { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 27.5px;
+  text-align: center;
+  color: #7D8570;
+}
+
+body {
+  background-color: #eeeeee;
 }
